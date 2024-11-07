@@ -1,0 +1,9 @@
+package snippet;
+
+public class Snippet {
+	FileWriter fw = new FileWriter(f);
+				fw.write("This is a sample File");
+				fw.flush();
+				fw.close();
+}
+

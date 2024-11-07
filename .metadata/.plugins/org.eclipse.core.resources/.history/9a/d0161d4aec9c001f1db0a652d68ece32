@@ -1,0 +1,17 @@
+package example;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Employee s = new Employee();
+//		s.setName("java");
+//		s.setPriority(2);
+//		s.start();
+		Runnable p = new Person();
+		Thread t = new Thread(p,"Person Thread!!");
+		t.start();
+		t.start();
+	}
+
+}

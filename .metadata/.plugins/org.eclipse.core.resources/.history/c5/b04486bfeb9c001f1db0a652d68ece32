@@ -1,0 +1,20 @@
+package example;
+
+import java.nio.channels.AcceptPendingException;
+
+public class Person implements Runnable{
+
+	@Override
+	public void run() {
+		for(int i =0;i<5;i++) {
+			System.out.println(i);
+			try {
+				Thread.sleep(2000);				
+			}catch (Exception e) {
+				throw new AcceptPendingException();
+				//e.printStackTrace();
+			}
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package multilevel;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Tom  t = new Tom();
+//		System.out.println(t.id);
+//		System.out.println(t.age);
+//		t.work();
+//		t.eat();
+
+	}
+
+}

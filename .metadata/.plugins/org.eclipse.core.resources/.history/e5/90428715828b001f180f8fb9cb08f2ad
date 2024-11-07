@@ -1,0 +1,20 @@
+package org;
+
+public class Demo extends Thread{
+	Demo(String name){
+		super(name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			Demo d1 = new Demo(); 
+		System.out.println(d1.getName());
+		d1.setName("bike thread");
+		System.out.println(d1.getName());
+		
+		Demo t2 = new Demo("Car thread");
+		System.out.println(t2.getName());
+		
+	}
+
+}

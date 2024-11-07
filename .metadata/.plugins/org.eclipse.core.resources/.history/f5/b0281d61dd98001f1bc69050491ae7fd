@@ -1,0 +1,20 @@
+package queueprograms;
+
+import java.util.*;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Queue<String> q = new PriorityQueue<>();
+		q.add("ram");
+		q.add("agent");
+		q.add("nani");
+		System.out.println(q);
+		//System.out.println(q.element());
+		System.out.println(q.peek());
+		//System.out.println(q.remove());
+		System.out.println(q.poll());
+	}
+
+}
